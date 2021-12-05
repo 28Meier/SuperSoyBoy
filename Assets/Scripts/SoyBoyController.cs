@@ -150,11 +150,7 @@ public class SoyBoyController : MonoBehaviour
             animator.SetBool("IsJumping", false);
             jumpDuration = 0f;
         }
-            else
-            {
-                isJumping = false;
-                jumpDuration = 0f;
-            }
+ 
 
             if (jumpDuration > jumpDurationThreshold) input.y = 0f;
 
